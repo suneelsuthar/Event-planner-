@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="createevent.css">
+
+<style>
+/* div{
+    margin: auto;
+    width: 27%;
+    background-color: burlywood;
+    height: 420px;
+
+} */
+
+</style>
+<link rel="stylesheet" href="form.css">
+<link rel="stylesheet" href="index.css">
+
+<body>
+
+
+
+
+
+    <!-- <div id="myDIV">
+    <label>Event Title:</label> <input type="text" id="inpt1"><br> 
+    <label>Hosted by:</label><input type="text" id="inpt2"><br>
+    <label>Date:</label> <input type="text" id="inpt3"><br>
+    <label>Phone No:</label><input type="text" id="inpt4"><br>
+    <label>Timing:</label><input type="text" id="inpt5"><br>
+    <label>Adress:</label><input type="text" id="inpt6"><br>
+  <button onclick="create()" class="addBtn">create event</button>
+</div> -->
+<div class="nav">
+    <div class="nav-header">
+      <div class="nav-title">
+          <img src="user.png" class="userImg">
+          <svg height="100" width="100">
+              <circle cx="40" cy="10" r="5" stroke-width="3" fill="green" />
+          </svg>
+          <span id="user"></span>
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    <input type="checkbox" id="nav-check">
+    <div class="nav-links">
+      <a href="index1.html">Home</a>
+      <a href="myevent.html">My Event</a>
+      <a href="createevent.html">Create event</a>
+      <a href="login.html">Logout<a>
+    </div>
+  </div>
+
+  <h3 style="text-align:center;margin-top: 10px;">CRERATE EVENTS</h3>
+
+<div class="container">
+    <form action="">
+      <h3>Your details</h3>
+      <!-- <svg width="100%" height="100%">
+        <path class="hidden" d="M0 0 H200 V200 H0 Z"></path>
+      </svg> -->
+      <input type="text" placeholder="Event title"  id="inpt1"/>
+      <input type="text" placeholder="enter organizer name"  id="inpt2"/>
+      <input type="text" placeholder="enter date"  id="inpt3"/>
+      <input type="text" placeholder="enter phone no"  id="inpt4"/>
+      <input type="text" placeholder="enter time "  id="inpt5"/>
+      <input type="text" placeholder="enter adress"  id="inpt6"/>
+      <input type="file" id="inpt7"/>
+
+      <button onclick="create()">create event</button>
+    </form>
+  </div>
+
+
+
+
+
+<ul id="myUL">
+    <!-- <li></li> -->
+</ul>
+    <script src="createevent.js"></script>
+    <script src="form.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
